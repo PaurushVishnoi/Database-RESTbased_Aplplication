@@ -155,7 +155,7 @@ def job():
 
 # Update the data after 1 day
 
-    time.sleep(86400)
+    time.sleep(86399)
   
 
 schedule.every(2).seconds.do(job)
